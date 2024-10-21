@@ -20,7 +20,7 @@ public class Main {
 
     }
 
-    public static double readNumber(String label, double min, double max) {
+    public static double readInput(String label, double min, double max) {
         var scanner = new Scanner(System.in);
         double value;
         while (true) {
